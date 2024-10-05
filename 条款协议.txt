@@ -165,7 +165,7 @@ local function CreateGUI(title)
     end)
     agreeButton.MouseButton1Click:Connect(function()
         AnimateExit()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/useranewrff/useranewrff/refs/heads/main/%E6%9C%8D%E5%8A%A1%E5%99%A8id%E6%89%A7%E8%A1%8C.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/useranewrff/useranewrff/refs/heads/main/eee.lua"))()
     end)
 end
 local myTitle = "导管中心协议条款" 
