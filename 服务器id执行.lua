@@ -50,3 +50,8 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/useranewrff/useranewr
 elseif game.PlaceId == 8069117419 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/useranewrff/useranewrff/refs/heads/main/%E9%AC%BC%E7%81%AD%E5%B0%8F%E9%98%9F.txt"))()
 end
+game.StarterGui:SetCore("SendNotification", {
+    Title = "提示",
+    Text = "脚本已执行",
+    Duration = 5
+})
